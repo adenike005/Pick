@@ -27,12 +27,14 @@ const Start = ({navigation}) => {
 
       <View style={{marginHorizontal:25, marginTop:"100%"}}>
         <TouchableOpacity
-        style={{backgroundColor:Color.purple, padding:15, marginBottom:"5%"}}>
+        style={{backgroundColor:Color.purple, padding:15, marginBottom:"5%"}}
+        onPress={() => navigation.navigate("Login")}>
             <Text style={{color:Color.white, textAlign:"center"}}>LOGIN</Text>
         </TouchableOpacity>
         <TouchableOpacity
-        style={{backgroundColor:Color.black, padding:15, borderColor:Color.purple, borderWidth: 1}}>
-            <Text style={{color:Color.white, textAlign:"center"}}>LOGIN</Text>
+        style={{backgroundColor:Color.black, padding:15, borderColor:Color.purple, borderWidth: 1}}
+        >
+            <Text style={{color:Color.white, textAlign:"center", textTransform:"uppercase"}}>Create account</Text>
         </TouchableOpacity>
       </View>
       

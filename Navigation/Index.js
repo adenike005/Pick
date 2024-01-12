@@ -7,6 +7,7 @@ import Onboard1 from '../Screen/Onboard1'
 import Onboard2 from '../Screen/Onboard2'
 import Onboard3 from '../Screen/Onboard3';
 import Start from '../Screen/Start';
+import Login from '../Screen/Login';
 
 
 const Stack = createStackNavigator();
@@ -32,6 +33,7 @@ const Index = () => {
         
         ))}
         <Stack.Screen name='Start' component={Start}/>
+        <Stack.Screen name='Login' component={Login}/>
           </Stack.Navigator>
    </NavigationContainer>
   )
